@@ -46,7 +46,7 @@ Hint:
 - use res.send(...)
 
 Syntax hint:*/
-   app.get('http://localhost:3000/', (req, res) => {
+   app.get('/', (req, res) => {
      res.send('Hello from the back-end server');
    });
 
@@ -63,7 +63,7 @@ Hint:
 - use res.send(...)
 
 Syntax hint:*/
-   app.get('http://localhost:3000/about', (req, res) => {
+   app.get('/about', (req, res) => {
      res.send('This is the about route');
    });
 
@@ -83,7 +83,7 @@ Hint:
 - send an object
 
 Syntax hint:*/
-   app.get('http://localhost:3000/student', (req, res) => {
+   app.get('/student', (req, res) => {
      res.json(student)({
        name: 'Aisha',
        major: 'Computer Science'
