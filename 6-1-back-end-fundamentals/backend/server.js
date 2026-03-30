@@ -45,10 +45,10 @@ Hint:
 - use '/' as the route path
 - use res.send(...)
 
-Syntax hint:
-   app.get('___', (req, res) => {
-     res.____('____________________________');
-   });*/
+Syntax hint:*/
+   app.get('http://localhost:3000/', (req, res) => {
+     res.send('Hello from the back-end server');
+   });
 
 
 // TODO 6: Create the "/about" route
