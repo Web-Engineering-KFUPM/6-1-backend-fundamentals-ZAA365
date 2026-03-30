@@ -16,8 +16,8 @@ Syntax hint:*/
 Hint:
 - call the imported express function
 
-Syntax hint:
-   const app = ______();*/
+Syntax hint:*/
+   const app = Express();
 
 // TODO 3: Allow React to access the server
 
