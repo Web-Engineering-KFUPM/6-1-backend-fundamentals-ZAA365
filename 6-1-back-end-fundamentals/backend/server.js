@@ -82,13 +82,13 @@ Hint:
 - use res.json(...)
 - send an object
 
-Syntax hint:
-   app.get('_________', (req, res) => {
-     res.____({
-       name: '_____',
-       major: '________________'
+Syntax hint:*/
+   app.get('http://localhost:3000/student', (req, res) => {
+     res.json(student)({
+       name: 'Aisha',
+       major: 'Computer Science'
      });
-   });*/
+   });
 
 
 // TODO 4: Start the server on port 3000
