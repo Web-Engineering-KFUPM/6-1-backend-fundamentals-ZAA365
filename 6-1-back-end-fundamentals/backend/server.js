@@ -62,10 +62,10 @@ Hint:
 - use app.get(...)
 - use res.send(...)
 
-Syntax hint:
-   app.get('_______', (req, res) => {
-     res.____('________________________');
-   });*/
+Syntax hint:*/
+   app.get('http://localhost:3000/about', (req, res) => {
+     res.send('This is the about route');
+   });
 
 
 // TODO 7: Create the "/student" route
