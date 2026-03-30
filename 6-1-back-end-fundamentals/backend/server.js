@@ -101,8 +101,7 @@ Hint:
 - first value is the port number
 - second value is a function
 
-Syntax hint:
-   app.listen(____, () => {
+Syntax hint:*/
+   app.listen(3000, () => {
      console.log('________________________________');
    });
-*/
