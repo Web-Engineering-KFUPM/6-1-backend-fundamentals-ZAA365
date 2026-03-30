@@ -31,7 +31,7 @@ Syntax hint:*/
 
 // and:*/
 
-    app.use(cors);
+    app.use(cors());
 
 // TODO 5: Create the home route "/"
 /*In server.js, create the route for:
@@ -84,7 +84,7 @@ Hint:
 
 Syntax hint:*/
    app.get('/student', (req, res) => {
-     res.json(student)({
+     res.json({
        name: 'Aisha',
        major: 'Computer Science'
      });
