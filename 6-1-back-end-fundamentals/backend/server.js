@@ -26,12 +26,12 @@ Syntax hint:*/
 - import cors
 - call the cors method inside the express app.
 
-// Syntax hint:
-//    import ______ from 'cors';
+// Syntax hint:*/
+    import cors from 'cors';
 
-// and:
+// and:*/
 
-//    app.use(______);*/
+    app.use(cors);
 
 // TODO 5: Create the home route "/"
 /*In server.js, create the route for:
